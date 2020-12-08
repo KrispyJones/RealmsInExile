@@ -31,7 +31,7 @@
 #	}
 #}
 lotr_numenor_culture_trigger = {
-	culture_group = culture_group:lotr_dunedain_group
+	has_culture_group = culture_group:lotr_dunedain_group
 #	OR = {
 #		culture_group = culture_group:lotr_dunedain_group
 #		culture_group = culture_group:lotr_black_numenorean_group
@@ -40,8 +40,8 @@ lotr_numenor_culture_trigger = {
 
 lotr_horse_lords_culture_trigger = { # Matt note: based on Ck2's MEP Horse People Culture
 	OR = {
-		culture_group = culture_group:lotr_hadorim_group
-		culture = culture:hill_dunlending
+		has_culture_group = culture_group:lotr_hadorim_group
+		has_culture = culture:hill_dunlending
 #		culture = variags, balchoth, wainriders, ect
 #		faith = any faiths with a focus on Béma (the Valar Oromë) and his horse Nahar.
 	}
